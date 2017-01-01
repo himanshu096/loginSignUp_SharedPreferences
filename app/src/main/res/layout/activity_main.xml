@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.monukumar.myapplication.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="300dp"
+        android:hint="Username"
+        android:id="@+id/edittext_username"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="1dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="16dp"
+        android:inputType="textPassword"
+        android:id="@+id/edittext_password"
+        android:hint="Password"
+
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:text="Login"
+        android:id="@+id/button_login"
+        android:textSize="22dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="155dp"
+        android:text="OR"
+        android:textColor="@color/colorPrimaryDark"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:id="@+id/button_signup"
+        android:layout_marginLeft="16dp"
+        android:textSize="22dp"
+        android:textColor="@color/colorAccent"/>
+
+
+</LinearLayout>
